@@ -1,0 +1,18 @@
+<?php
+$grade = 85;
+
+if ($grade >= 90) {
+    echo "Ваша оценка A";
+} elseif ($grade >= 80) {
+    echo "Ваша оценка B";
+} elseif ($grade >= 70) {
+    echo "Ваша оценка C";
+} elseif ($grade >= 60) {
+    echo "Ваша оценка D";
+} else {
+    echo "Ваша оценка F";
+}
+?>
+
+/*Придумать и написать любой пример использования if-elseif-else*/
+
