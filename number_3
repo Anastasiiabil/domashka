@@ -1,0 +1,14 @@
+<?php
+$color = "green";
+
+if ($color == "red") {
+    echo "Цвет - красный";
+} elseif ($color == "blue") {
+    echo "Цвет - синий";
+} elseif ($color == "green") {
+    echo "Цвет - зеленый";
+} else {
+    echo "Неизвестный цвет";
+}
+?>
+/*Переписать скрипт оператора switch->case->break так, чтобы использовалась конструкция if->elseif->else/*
